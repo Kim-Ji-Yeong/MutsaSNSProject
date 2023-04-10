@@ -4,7 +4,7 @@
 ##### <div align = "center" logoColor="green"> "로그인/회원가입, 게시글 CRUD, 댓글, 좋아요, 알림, 권한 기능이 있는 토이 프로젝트" </div>
 
 
-> * swagger주소 😊 t3(swagger) : http://ec2-13-209-65-19.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/
+> * swagger주소 t3(swagger) : http://ec2-3-238-223-126.compute-1.amazonaws.com:8080/swagger-ui/
     
 <br>
 
@@ -37,16 +37,8 @@
 - [x] 댓글 기능 구현
 - [x] 좋아요 기능 구현
 - [x] 게시글 CRUD 테스트 코드
-- [ ] 부가기능(댓글, 좋아요, 권한) 테스트 코드 작성하기 
-- [ ] 알람 기능 구현
 - [x] admin 권한 (Role 역할) 구현 및 ADMIN 권한 부여
-- [ ] 소스코드 리펙토링 (간결화, 효율성 참고) -> validateCode, Post ()
-- [ ] 화면ui 설정 
-- [ ] 마이페이지 기능 구현
-- [ ] admin 계정 user 데이터 관리
- 
 
-> * 진행 간 발생했던 이슈 : https://gitlab.com/rnrudejr9/mustasns/-/issues/?sort=created_date&state=all&first_page_size=20
 
 <br>
 
@@ -73,18 +65,7 @@
 
 <br>
 
-![image](https://user-images.githubusercontent.com/49141751/209741337-49e7fe52-abb9-4c40-b6d1-525c3ab4d152.png)
 
-* `users`, `method.get` 을 제외한 `ENDPOINT`는 로그인 후 `result` 값인 `JWT`토큰 내용을 받아 
-
-![image](https://user-images.githubusercontent.com/49141751/209741359-80f5d3c0-01cc-4f61-a895-d2985c343ebe.png)
-
-* `Bearer Token` 으로 인증받아 `ENDPOINT` 활용한다.
-
-<br>
-
-
-<br>
 
 ## 🚀 ERD
 
